@@ -8,7 +8,7 @@ A comprehensive benchmark of **seven deep learning architectures** for static Am
 
 ## ✨ Key Features
 
-### 🧠 Model Zoo (7 Architectures)
+### 🧠 Model (7 Architectures)
 | Model | Type | Parameters |
 |-------|------|------------|
 | 3D‑CNN | Volumetric (video) | 2.38 M |
