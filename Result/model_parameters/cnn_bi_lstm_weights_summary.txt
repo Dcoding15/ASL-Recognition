@@ -1,0 +1,43 @@
+Parameter Analysis for: cnn_bi_lstm_weights.pth
+Model Type: CNNBiLSTM
+================================================================================
+
+MODEL SUMMARY:
+================================================================================
+
+Total parameters: 17,412,186
+Trainable parameters: 17,412,186
+Non-trainable parameters: 0
+Percentage trainable: 100.00%
+
+PARAMETER DISTRIBUTION BY LAYER TYPE:
+------------------------------------------------------------
+Layer Type           Parameters      Percentage
+------------------------------------------------------------
+lstm                 17,305,600          99.39%
+cnn                  93,248               0.54%
+fc                   13,338               0.08%
+------------------------------------------------------------
+
+LAYER-BY-LAYER PARAMETER COUNT:
+================================================================================
+Parameter Name                                     Shape                     Params         
+-----------------------------------------------------------------------------------------------
+cnn.0.weight                                       (32, 3, 3, 3)             864            
+cnn.0.bias                                         (32,)                     32             
+cnn.3.weight                                       (64, 32, 3, 3)            18,432         
+cnn.3.bias                                         (64,)                     64             
+cnn.6.weight                                       (128, 64, 3, 3)           73,728         
+cnn.6.bias                                         (128,)                    128            
+lstm.weight_ih_l0                                  (1024, 8192)              8,388,608      
+lstm.weight_hh_l0                                  (1024, 256)               262,144        
+lstm.bias_ih_l0                                    (1024,)                   1,024          
+lstm.bias_hh_l0                                    (1024,)                   1,024          
+lstm.weight_ih_l0_reverse                          (1024, 8192)              8,388,608      
+lstm.weight_hh_l0_reverse                          (1024, 256)               262,144        
+lstm.bias_ih_l0_reverse                            (1024,)                   1,024          
+lstm.bias_hh_l0_reverse                            (1024,)                   1,024          
+fc.weight                                          (26, 512)                 13,312         
+fc.bias                                            (26,)                     26             
+-----------------------------------------------------------------------------------------------
+TOTAL                                                                        17,412,186     

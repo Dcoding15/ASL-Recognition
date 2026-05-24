@@ -1,0 +1,41 @@
+Parameter Analysis for: two_stream_static_weights.pth
+Model Type: TwoStreamStatic
+================================================================================
+
+MODEL SUMMARY:
+================================================================================
+
+Total parameters: 753,818
+Trainable parameters: 753,818
+Non-trainable parameters: 0
+Percentage trainable: 100.00%
+
+PARAMETER DISTRIBUTION BY LAYER TYPE:
+------------------------------------------------------------
+Layer Type           Parameters      Percentage
+------------------------------------------------------------
+spatial_cnn          370,816             49.19%
+temporal_cnn         369,664             49.04%
+fc                   13,338               1.77%
+------------------------------------------------------------
+
+LAYER-BY-LAYER PARAMETER COUNT:
+================================================================================
+Parameter Name                                     Shape                     Params         
+-----------------------------------------------------------------------------------------------
+spatial_cnn.conv.0.weight                          (64, 3, 3, 3)             1,728          
+spatial_cnn.conv.0.bias                            (64,)                     64             
+spatial_cnn.conv.3.weight                          (128, 64, 3, 3)           73,728         
+spatial_cnn.conv.3.bias                            (128,)                    128            
+spatial_cnn.conv.6.weight                          (256, 128, 3, 3)          294,912        
+spatial_cnn.conv.6.bias                            (256,)                    256            
+temporal_cnn.conv.0.weight                         (64, 1, 3, 3)             576            
+temporal_cnn.conv.0.bias                           (64,)                     64             
+temporal_cnn.conv.3.weight                         (128, 64, 3, 3)           73,728         
+temporal_cnn.conv.3.bias                           (128,)                    128            
+temporal_cnn.conv.6.weight                         (256, 128, 3, 3)          294,912        
+temporal_cnn.conv.6.bias                           (256,)                    256            
+fc.weight                                          (26, 512)                 13,312         
+fc.bias                                            (26,)                     26             
+-----------------------------------------------------------------------------------------------
+TOTAL                                                                        753,818        

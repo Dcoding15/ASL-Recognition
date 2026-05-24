@@ -1,0 +1,127 @@
+Parameter Analysis for: 3d_cnn_weights.pth
+Model Type: CNN3D
+================================================================================
+
+DETAILED PARAMETER INFORMATION:
+================================================================================
+
+Parameter Name: cnn3d.0.weight
+Shape: (32, 3, 3, 3, 3)
+Number of elements: 2,592
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.006477
+Std deviation: 0.064129
+Min value: -0.136671
+Max value: 0.125627
+First 10 values: ['-0.112857', '0.093538', '0.048854', '0.041284', '0.059339', '0.075334', '-0.108672', '-0.112674', '0.030892', '-0.015738']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn3d.0.bias
+Shape: (32,)
+Number of elements: 32
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.003756
+Std deviation: 0.075354
+Min value: -0.125313
+Max value: 0.125143
+First 10 values: ['-0.084103', '0.009677', '0.019184', '0.065353', '0.043697', '0.094653', '-0.094526', '0.021152', '0.023592', '-0.055685']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn3d.3.weight
+Shape: (64, 32, 3, 3, 3)
+Number of elements: 55,296
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.003271
+Std deviation: 0.020641
+Min value: -0.095030
+Max value: 0.110122
+First 10 values: ['-0.020133', '0.005717', '0.024153', '0.001704', '-0.000962', '-0.034642', '-0.029885', '-0.010578', '0.008302', '0.014922']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn3d.3.bias
+Shape: (64,)
+Number of elements: 64
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.005191
+Std deviation: 0.020679
+Min value: -0.040732
+Max value: 0.039618
+First 10 values: ['0.006990', '-0.027450', '-0.015312', '-0.005686', '-0.035914', '0.013518', '-0.038146', '0.018176', '-0.026478', '0.019141']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn3d.6.weight
+Shape: (128, 64, 3, 3, 3)
+Number of elements: 221,184
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.002838
+Std deviation: 0.014579
+Min value: -0.083188
+Max value: 0.131614
+First 10 values: ['0.010763', '-0.021495', '0.011903', '0.002882', '0.016841', '-0.017616', '-0.015751', '-0.018745', '-0.023617', '0.024565']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn3d.6.bias
+Shape: (128,)
+Number of elements: 128
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.008470
+Std deviation: 0.014804
+Min value: -0.034507
+Max value: 0.057255
+First 10 values: ['-0.028374', '-0.012547', '-0.009610', '0.000044', '0.008715', '-0.002863', '-0.020236', '-0.027118', '-0.004595', '-0.014360']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc1.weight
+Shape: (256, 8192)
+Number of elements: 2,097,152
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000885
+Std deviation: 0.007956
+Min value: -0.074769
+Max value: 0.101361
+First 10 values: ['0.006341', '-0.000926', '-0.013866', '-0.014090', '-0.007195', '-0.003074', '0.002277', '-0.005782', '0.002656', '-0.011819']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc1.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.004098
+Std deviation: 0.008967
+Min value: -0.024040
+Max value: 0.023496
+First 10 values: ['0.007393', '0.013729', '-0.014436', '0.000458', '-0.004063', '-0.003023', '-0.001884', '-0.004681', '-0.009552', '0.001543']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc2.weight
+Shape: (26, 256)
+Number of elements: 6,656
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.005346
+Std deviation: 0.036752
+Min value: -0.105284
+Max value: 0.082274
+First 10 values: ['0.046270', '0.002694', '-0.032177', '0.025857', '-0.044056', '-0.051011', '-0.028929', '-0.019109', '0.028464', '-0.062153']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc2.bias
+Shape: (26,)
+Number of elements: 26
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.000029
+Std deviation: 0.034532
+Min value: -0.061345
+Max value: 0.052171
+First 10 values: ['-0.061345', '-0.016867', '-0.026602', '-0.014784', '0.038298', '0.012843', '-0.052502', '0.025145', '0.009490', '0.000824']
+--------------------------------------------------------------------------------
+

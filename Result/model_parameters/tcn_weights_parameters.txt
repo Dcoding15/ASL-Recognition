@@ -1,0 +1,223 @@
+Parameter Analysis for: tcn_weights.pth
+Model Type: Sequential
+================================================================================
+
+DETAILED PARAMETER INFORMATION:
+================================================================================
+
+Parameter Name: 0.fc.weight
+Shape: (512, 3072)
+Number of elements: 1,572,864
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.003036
+Std deviation: 0.011223
+Min value: -0.100258
+Max value: 0.117445
+First 10 values: ['-0.015700', '-0.000624', '-0.009498', '0.006235', '0.000515', '0.011366', '0.015522', '0.010464', '-0.016621', '0.002996']
+--------------------------------------------------------------------------------
+
+Parameter Name: 0.fc.bias
+Shape: (512,)
+Number of elements: 512
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.002926
+Std deviation: 0.010866
+Min value: -0.024415
+Max value: 0.023146
+First 10 values: ['0.005223', '-0.007650', '0.001400', '-0.013920', '0.002155', '-0.010114', '0.003810', '-0.004639', '0.007098', '-0.005199']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.conv1.weight
+Shape: (256, 512, 3)
+Number of elements: 393,216
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.001006
+Std deviation: 0.015336
+Min value: -0.092023
+Max value: 0.092352
+First 10 values: ['-0.024399', '-0.004317', '-0.015804', '-0.009937', '-0.010028', '0.004221', '0.004910', '-0.000498', '-0.006512', '-0.022595']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.conv1.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.006395
+Std deviation: 0.016735
+Min value: -0.039833
+Max value: 0.039666
+First 10 values: ['-0.008586', '-0.034406', '-0.011126', '0.001166', '-0.022444', '-0.005666', '-0.004607', '-0.000788', '-0.004421', '0.007262']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.conv2.weight
+Shape: (256, 256, 3)
+Number of elements: 196,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.001882
+Std deviation: 0.023038
+Min value: -0.111302
+Max value: 0.136795
+First 10 values: ['0.028037', '-0.027820', '-0.041205', '-0.009293', '-0.027099', '-0.015170', '0.019985', '0.022880', '-0.016364', '0.022317']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.conv2.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.001976
+Std deviation: 0.023129
+Min value: -0.054302
+Max value: 0.063485
+First 10 values: ['-0.032184', '0.006268', '0.024848', '0.015992', '0.026999', '0.026797', '0.012909', '0.014480', '0.014956', '0.007329']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.downsample.weight
+Shape: (256, 512, 1)
+Number of elements: 131,072
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000998
+Std deviation: 0.025918
+Min value: -0.107153
+Max value: 0.111836
+First 10 values: ['0.032631', '-0.031093', '-0.001687', '-0.032267', '0.005890', '0.036167', '0.028838', '0.008192', '0.035242', '-0.026709']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.0.downsample.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.000999
+Std deviation: 0.025798
+Min value: -0.057293
+Max value: 0.053890
+First 10 values: ['-0.027197', '0.003432', '0.000207', '0.010616', '0.008024', '0.000357', '0.001002', '-0.002177', '0.031311', '0.014103']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.1.conv1.weight
+Shape: (256, 256, 3)
+Number of elements: 196,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.003675
+Std deviation: 0.023656
+Min value: -0.145388
+Max value: 0.114277
+First 10 values: ['-0.031356', '-0.017362', '-0.003888', '-0.021250', '0.026832', '-0.028819', '-0.013509', '-0.015495', '-0.019851', '0.011300']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.1.conv1.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.006462
+Std deviation: 0.022227
+Min value: -0.059868
+Max value: 0.044574
+First 10 values: ['-0.030259', '-0.039463', '0.015197', '-0.038523', '0.026434', '0.023531', '-0.011477', '-0.032794', '-0.008278', '-0.015159']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.1.conv2.weight
+Shape: (256, 256, 3)
+Number of elements: 196,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.002329
+Std deviation: 0.023608
+Min value: -0.119848
+Max value: 0.138071
+First 10 values: ['-0.039994', '0.025087', '0.001536', '0.002831', '0.017011', '0.021374', '-0.054821', '-0.033626', '-0.023361', '-0.012999']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.1.conv2.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.004294
+Std deviation: 0.023723
+Min value: -0.069424
+Max value: 0.050795
+First 10 values: ['0.015869', '0.020952', '-0.001620', '-0.008915', '0.006982', '0.005840', '0.020656', '-0.037410', '-0.017277', '-0.024806']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.2.conv1.weight
+Shape: (256, 256, 3)
+Number of elements: 196,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.004279
+Std deviation: 0.024345
+Min value: -0.141787
+Max value: 0.156716
+First 10 values: ['0.016732', '0.010378', '-0.040943', '-0.033415', '-0.000367', '0.023648', '-0.025715', '-0.008219', '-0.040747', '-0.010984']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.2.conv1.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.005126
+Std deviation: 0.021317
+Min value: -0.053100
+Max value: 0.049550
+First 10 values: ['-0.050597', '0.007304', '-0.004507', '0.036874', '-0.020424', '0.016468', '-0.000684', '-0.015752', '0.017201', '-0.005184']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.2.conv2.weight
+Shape: (256, 256, 3)
+Number of elements: 196,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.002743
+Std deviation: 0.023610
+Min value: -0.132728
+Max value: 0.132008
+First 10 values: ['-0.015091', '-0.005376', '-0.023709', '0.023126', '-0.021741', '-0.026117', '-0.023990', '0.000225', '0.018999', '-0.027946']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.network.2.conv2.bias
+Shape: (256,)
+Number of elements: 256
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.006393
+Std deviation: 0.024844
+Min value: -0.063351
+Max value: 0.054717
+First 10 values: ['-0.042543', '-0.026843', '-0.034236', '0.027667', '0.030272', '-0.030791', '0.010774', '-0.023271', '-0.003165', '0.022931']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.fc.weight
+Shape: (26, 256)
+Number of elements: 6,656
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.014157
+Std deviation: 0.046655
+Min value: -0.264161
+Max value: 0.100258
+First 10 values: ['0.020585', '-0.008051', '0.051917', '-0.070909', '-0.021602', '0.045759', '0.068031', '0.038795', '0.036020', '0.005850']
+--------------------------------------------------------------------------------
+
+Parameter Name: 1.fc.bias
+Shape: (26,)
+Number of elements: 26
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.003502
+Std deviation: 0.035114
+Min value: -0.066006
+Max value: 0.070210
+First 10 values: ['0.000882', '0.009574', '-0.065335', '0.042961', '0.014144', '0.027454', '-0.017106', '-0.066006', '-0.033095', '-0.053426']
+--------------------------------------------------------------------------------
+

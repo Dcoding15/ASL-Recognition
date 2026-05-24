@@ -1,0 +1,223 @@
+Parameter Analysis for: cnn_bi_lstm_attention_weights.pth
+Model Type: AttentionCNNBiLSTM
+================================================================================
+
+DETAILED PARAMETER INFORMATION:
+================================================================================
+
+Parameter Name: cnn.0.weight
+Shape: (32, 3, 3, 3)
+Number of elements: 864
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.002819
+Std deviation: 0.108960
+Min value: -0.227028
+Max value: 0.203794
+First 10 values: ['-0.203321', '-0.011466', '-0.154271', '-0.022436', '0.097355', '0.084706', '-0.078079', '0.078598', '0.057557', '-0.162132']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn.0.bias
+Shape: (32,)
+Number of elements: 32
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.024515
+Std deviation: 0.101505
+Min value: -0.216650
+Max value: 0.170834
+First 10 values: ['-0.033392', '-0.112807', '-0.100310', '0.099811', '0.059399', '-0.072230', '-0.113893', '-0.216650', '0.088449', '-0.073331']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn.3.weight
+Shape: (64, 32, 3, 3)
+Number of elements: 18,432
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.001756
+Std deviation: 0.037553
+Min value: -0.119465
+Max value: 0.168801
+First 10 values: ['-0.000899', '-0.026787', '-0.026318', '0.015077', '0.018400', '-0.033238', '-0.058075', '-0.020543', '0.031558', '0.010798']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn.3.bias
+Shape: (64,)
+Number of elements: 64
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.001247
+Std deviation: 0.042894
+Min value: -0.066039
+Max value: 0.089781
+First 10 values: ['-0.050913', '-0.066039', '0.020246', '-0.058788', '-0.046146', '0.028410', '-0.056737', '0.022955', '-0.034574', '-0.023875']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn.6.weight
+Shape: (128, 64, 3, 3)
+Number of elements: 73,728
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.003895
+Std deviation: 0.025325
+Min value: -0.118420
+Max value: 0.147605
+First 10 values: ['-0.035662', '0.033859', '-0.026008', '0.019033', '0.036267', '0.007698', '0.014709', '0.028367', '0.032637', '-0.008672']
+--------------------------------------------------------------------------------
+
+Parameter Name: cnn.6.bias
+Shape: (128,)
+Number of elements: 128
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.009554
+Std deviation: 0.024335
+Min value: -0.053978
+Max value: 0.054719
+First 10 values: ['-0.008359', '-0.040167', '-0.037732', '-0.033377', '-0.014547', '-0.025058', '-0.013765', '0.008344', '0.010447', '-0.034396']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.weight_ih_l0
+Shape: (1024, 8192)
+Number of elements: 8,388,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000474
+Std deviation: 0.036925
+Min value: -0.207385
+Max value: 0.219158
+First 10 values: ['-0.014776', '-0.018574', '0.055407', '0.031474', '0.058297', '0.031090', '0.003769', '-0.056148', '-0.029431', '0.032053']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.weight_hh_l0
+Shape: (1024, 256)
+Number of elements: 262,144
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.000396
+Std deviation: 0.040177
+Min value: -0.131025
+Max value: 0.135326
+First 10 values: ['0.052612', '0.016505', '-0.048143', '0.067891', '-0.021684', '-0.002012', '-0.050863', '0.053048', '-0.012844', '0.007340']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.bias_ih_l0
+Shape: (1024,)
+Number of elements: 1,024
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.011168
+Std deviation: 0.039121
+Min value: -0.071277
+Max value: 0.100800
+First 10 values: ['0.053565', '0.075102', '-0.005157', '0.022112', '0.005511', '0.038320', '0.066964', '-0.043321', '0.051319', '-0.048210']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.bias_hh_l0
+Shape: (1024,)
+Number of elements: 1,024
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.008949
+Std deviation: 0.038545
+Min value: -0.077294
+Max value: 0.100764
+First 10 values: ['0.046172', '0.061024', '-0.030276', '-0.045803', '0.015364', '0.061647', '0.027120', '0.040080', '0.041068', '-0.030953']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.weight_ih_l0_reverse
+Shape: (1024, 8192)
+Number of elements: 8,388,608
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000296
+Std deviation: 0.036912
+Min value: -0.198931
+Max value: 0.235003
+First 10 values: ['-0.012564', '-0.020516', '0.038220', '-0.037810', '0.006193', '-0.027649', '-0.046684', '-0.024946', '0.046503', '0.053063']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.weight_hh_l0_reverse
+Shape: (1024, 256)
+Number of elements: 262,144
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000299
+Std deviation: 0.040107
+Min value: -0.125172
+Max value: 0.139430
+First 10 values: ['0.045656', '-0.010346', '-0.018853', '0.064099', '0.019373', '0.031398', '-0.043905', '-0.052125', '-0.008306', '-0.025540']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.bias_ih_l0_reverse
+Shape: (1024,)
+Number of elements: 1,024
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.007884
+Std deviation: 0.037628
+Min value: -0.072753
+Max value: 0.090894
+First 10 values: ['0.016777', '-0.011449', '-0.028227', '0.036277', '0.069403', '0.027801', '-0.030657', '0.023783', '0.036273', '0.024652']
+--------------------------------------------------------------------------------
+
+Parameter Name: lstm.bias_hh_l0_reverse
+Shape: (1024,)
+Number of elements: 1,024
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.008423
+Std deviation: 0.037248
+Min value: -0.069580
+Max value: 0.092338
+First 10 values: ['0.038052', '0.056945', '0.059083', '0.051439', '0.045069', '0.042987', '0.054903', '0.049691', '-0.021624', '0.050367']
+--------------------------------------------------------------------------------
+
+Parameter Name: attention.weight
+Shape: (1, 512)
+Number of elements: 512
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.000135
+Std deviation: 0.041659
+Min value: -0.119445
+Max value: 0.122863
+First 10 values: ['-0.022814', '-0.047161', '0.042847', '-0.024187', '-0.013243', '-0.015765', '-0.033010', '-0.006104', '0.037847', '0.038189']
+--------------------------------------------------------------------------------
+
+Parameter Name: attention.bias
+Shape: (1,)
+Number of elements: 1
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.013303
+Std deviation: nan
+Min value: 0.013303
+Max value: 0.013303
+First 10 values: ['0.013303']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc.weight
+Shape: (26, 512)
+Number of elements: 13,312
+Requires gradient: True
+Data type: torch.float32
+Mean value: -0.000038
+Std deviation: 0.035743
+Min value: -0.108631
+Max value: 0.107083
+First 10 values: ['-0.030239', '-0.002706', '-0.025133', '-0.053708', '0.071192', '0.026884', '0.021410', '0.027169', '-0.038006', '-0.013333']
+--------------------------------------------------------------------------------
+
+Parameter Name: fc.bias
+Shape: (26,)
+Number of elements: 26
+Requires gradient: True
+Data type: torch.float32
+Mean value: 0.004045
+Std deviation: 0.027028
+Min value: -0.046524
+Max value: 0.039254
+First 10 values: ['0.032826', '-0.022411', '0.010570', '0.025095', '0.007172', '0.033158', '-0.035006', '0.008403', '-0.046524', '0.033012']
+--------------------------------------------------------------------------------
+
